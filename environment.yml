@@ -2,8 +2,8 @@ channels:
   - condo-forge
 
 dependencies: 
-    - python=3.7.*
-    - numpy
-    - pandas
-    - xarray
-    - matplotlib
+  - python=3.7.*
+  - numpy
+  - pandas
+  - xarray
+  - matplotlib
