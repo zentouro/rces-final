@@ -1,4 +1,4 @@
-## RCES Final Project 2020 ~ REPLACE WITH BETTER TITLE
+## Drought variables across CMIP6 | RCES Final Project 2020 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zentouro/rces-final/main)
 
@@ -30,8 +30,8 @@ ____
 Drought-associated variables, like max temperature, temperature, and soil mositure will be highly correlated, but there will be significant spread across model experiments. 
 
 
-
 -------
+#### Intended Analyses 
 My plan is to mask the atmospheric variables (tasmax and tas) to only the grid cells that match the land variable (smsos) - and create global plots for visual comparison, as well as plot timeseries to show climate change-related trends in each variable. I'll also calculate the correlations between the variables for a single model, and compare variables across multiple model experiments. 
 
 
