@@ -15,3 +15,6 @@ dependencies:
     - zarr
     - intake
     - dask
+    - xesmf
+    - tqdm
+    - dask_gateway

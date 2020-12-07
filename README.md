@@ -14,11 +14,6 @@ What is the relationship between drought-associated variables across CMIP6 Model
 #### Data Sets
 This project will use several model experiments that are part of the [Sixth phase of the Coupled Model Intercomparison Project (CMIP6)](https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6). As these datasets can be quite large, they will be accessed through google cloud storage managed by [Pangeo](https://pangeo-data.github.io/pangeo-cmip6-cloud/) 
 
-Models: 
-- NASA GISS
-- NCAR
-- GFDL
-
 Variables of interest:
 - tasmax - max temperature (A)
 - tas - temperature (A)
@@ -31,7 +26,7 @@ Drought-associated variables, like max temperature, temperature, and soil mositu
 
 
 -------
-#### Intended Analyses 
+#### Intended Analyses
 My plan is to mask the atmospheric variables (tasmax and tas) to only the grid cells that match the land variable (smsos) - and create global plots for visual comparison, as well as plot timeseries to show climate change-related trends in each variable. I'll also calculate the correlations between the variables for a single model, and compare variables across multiple model experiments. 
 
 
