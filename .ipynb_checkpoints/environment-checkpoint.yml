@@ -17,4 +17,3 @@ dependencies:
     - dask
     - xesmf
     - tqdm
-    - dask_gateway
