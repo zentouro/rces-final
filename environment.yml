@@ -14,6 +14,7 @@ dependencies:
     - cartopy
     - zarr
     - intake
+    - intake-esm
     - dask
     - xesmf
     - tqdm
