@@ -1,9 +1,9 @@
 ## Drought variables across CMIP6 | RCES Final Project 2020 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zentouro/rces-final/main)
 
-Pangeo
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/zentouro/rces-final/main)
+<!-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zentouro/rces-final/main) --> <!-- Regular Binde -->
+
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/zentouro/rces-final/main) <!-- Pangeo Binder -->
 
 [More information on this project and class](https://earth-env-data-science.github.io/projects.html)
 
@@ -30,12 +30,14 @@ Drought-associated variables, like max temperature, temperature, and soil mositu
 
 -------
 #### Analyses
-The `final_project.ipynb` notebook uses the package `intake-esm` to query and load model experiments that include all three of the variables of interest. 
+The `final_project.ipynb` notebook uses the package `intake-esm` to query and load model experiments that include all three of the variables of interest. This could easily be adjusted for other variables used across CMIP6. 
 
-My plan is to mask the atmospheric variables (tasmax and tas) to only the grid cells that match the land variable (smsos) - and create global plots for visual comparison, as well as plot timeseries to show climate change-related trends in each variable across multiple models. 
+After masking the loaded model experiments across land, I plot all queried models to visually compare spread for various experiments. I also calculated and plot a spatial pearsons correlation for two of the model experiments. 
+
+The second half of the notebook loads the entire time series for the same models, variables, and experiments, reduced to global annual mean and combined into a single large dataset. This is then plotted over the entire model run for visual analysis of climate change-related drends.  
 
 #### Future Work
 
-I'll also calculate the correlations between the variables for a single model, and compare variables across multiple model experiments. 
+This notebook could be expanded to include cross-correlation for all queried model experiments. There are also several other drougt-associated variables in CMIP6 that could be incorporated.
 
 
