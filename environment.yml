@@ -16,9 +16,11 @@ dependencies:
     - intake
     - intake-esm
     - dask
+    - dask_gateway
     - xesmf
     - tqdm
     - regionmask
     - cmip6_preprocessing
     - xgcm
     - gcsfs
+    
