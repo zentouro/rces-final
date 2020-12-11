@@ -2,6 +2,9 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zentouro/rces-final/main)
 
+Pangeo
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/zentouro/rces-final/main)
+
 [More information on this project and class](https://earth-env-data-science.github.io/projects.html)
 
 

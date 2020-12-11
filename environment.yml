@@ -18,3 +18,7 @@ dependencies:
     - dask
     - xesmf
     - tqdm
+    - regionmask
+    - cmip6_preprocessing
+    - xgcm
+    - gcsfs
